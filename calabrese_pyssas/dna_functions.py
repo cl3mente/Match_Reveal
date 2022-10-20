@@ -1,8 +1,8 @@
 import bpy
 C = bpy.context
-with open(r"H:\Il mio Drive\università\python ssas\FINALE pySSAS\progetto clemente\mioglobina_umano.fa", "r") as seq1:
+with open(r"mioglobina_umano.fa", "r") as seq1:
     seq1 = seq1.readlines()[1]
-with open(r"H:\Il mio Drive\università\python ssas\FINALE pySSAS\progetto clemente\mioglobina_topo.fa", "r") as seq2:
+with open(r"mioglobina_topo.fa", "r") as seq2:
     seq2 = seq2.readlines()[1]
 
 """
